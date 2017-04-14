@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Quick Ads",
+  "description": "This extension speeds up Hulu ads",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Speed up my video!"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.hulu.com/watch/*",
+        "https://www.hulu.com/watch/*"
+      ],
+      "js": ["myjs.js"],
+      "css": ["mycss.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
