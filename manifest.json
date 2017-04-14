@@ -5,7 +5,8 @@
   "version": "1.0",
 
   "browser_action": {
-    "default_title": "Speed up my video!"
+    "default_icon": "icon.png",
+    "default_title": "Speed up Hulu ads"
   },
   "permissions": [
     "activeTab",
