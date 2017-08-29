@@ -5,8 +5,8 @@ whenever the ad countdown timer is showing.
 
 To test this in your browser:
 - Download the repo
-- Navigate to chrome://extensions/
-- Select Developer Mode and click Load unpacked extension...
+- Navigate to ```chrome://extensions/```
+- Select Developer Mode and click ```Load unpacked extension...```
 - Select the proect folder
 - Watch a video in Hulu with ads
 
